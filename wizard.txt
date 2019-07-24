@@ -25,7 +25,7 @@
 ;
 ;  0-1R1-1RH
 ;       ^
-;       Separator, for aesthetic reasons only (always a dash)
+;       Separator, required for parsing (always a dash)
 ;
 ;  0-1R1-1RH
 ;        ^
