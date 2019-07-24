@@ -95,7 +95,7 @@ zeroes_written = 0
 ones_written = 0
 
 ; ======= Introduction =======
-SelectOne "Welcome! This wizard emulates a Turing machine, proving that BAIN wizards are Turing-complete." + \
+SelectOne "Welcome! This wizard emulates a Turing machine, proving that BAIN wizards are Turing-complete. " + \
         "Please read the wizard.txt file for a full introduction on how to program a Turing machine for " + \
         "this emulator.\n\nTo skip this message in the future, simply run this wizard as an Auto Wizard.", \
         "|Launch", "Begin emulating the programmed Turing machine", "", \
