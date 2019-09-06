@@ -221,12 +221,12 @@ While True
 
     ; 3.3. Check if we ran out of tape
     If tape_head < 0
-        If -tape_head >= negative_tape.len
+        If -tape_head >= negative_tape.len()
             ; We're out of negative tape, make it longer
             negative_tape += "0"
         EndIf
     Else
-        If tape_head >= positive_tape.len
+        If tape_head >= positive_tape.len()
             ; We're out of positive tape, make it longer
             positive_tape += "0"
         EndIf
@@ -249,5 +249,5 @@ EndWhile
 Note "Halting State: " + str(target_state)
 total_tape = negative_tape + positive_tape
 Note "Final Tape: " + total_tape
-Note "Final Tape Length: " + str(total_tape.len)
+Note "Final Tape Length: " + str(total_tape.len())
 Note "Total Writes: " + str(zeroes_written + ones_written) + " (" + str(zeroes_written) + " zeroes, " + str(ones_written) + " ones)"
